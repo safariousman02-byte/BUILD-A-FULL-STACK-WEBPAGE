@@ -76,7 +76,7 @@ section h1 {
     align-items: center;
     display: flex;
     margin: auto;
-    inset: 300px;
+    inset: 200px;
     color: #fff;
     backdrop-filter: blur(10px);
     box-shadow: 0 0 30px rgba(0,0,0,0.3);
@@ -87,6 +87,7 @@ section h1 {
     width: 100%;
     padding: 40px;
 }
+
 
 .form-box h2 {
     font-size: 35px;
@@ -139,4 +140,24 @@ section h1 {
     color: #fff;
     text-decoration: none;
     font-weight: 600;
+    
+}
+
+P {
+    padding-top: 50PX;
+}
+
+.auth-modal .close-btn-modal {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    border: none;
+    border-bottom-left-radius: 20px;
+    font-size: 15px;
+    color: #222;
+    cursor: pointer;
+    z-index: 1;
 }
